@@ -62,9 +62,6 @@ func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 			} else {
 				m.selected[m.cursor] = struct{}{}
 			}
-		case "shift+enter":
-
-		}
 	}
 
 	// Return the updated model to the Bubble Tea runtime for processing.
